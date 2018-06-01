@@ -36,11 +36,11 @@ func main()  {
 说明：
 - 本阴历支持的最小年份为 1891，最大年份为 2100
 - Lunar 结构的属性有
-  Year 年份
-  Month 月份（中文）
-  Date 日（中文）
-  Nian 天干地支
-  EMonth 月份（数字）
-  EDate 日（数字）
-  Zodiac 生效
+  - Year 年份  int 如：2018
+  - Month 月份（中文）string 如：五月
+  - Date 日（中文） string 如：十八
+  - Nian 天干地支 int 如：戊戌
+  - EMonth 月份（数字） int 如：5
+  - EDate 日（数字） int 如： 18
+  - Zodiac 生效 string 如：狗
 
